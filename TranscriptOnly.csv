@@ -1,0 +1,107 @@
+Claims,Label
+"Thank you, Maddie, for trying out this pilot study.",Not a Scientific Claim
+I'm going to ask some questions about the dataset for a project.,Not a Scientific Claim
+Could you provide an overview of the dataset you're working with and its key features?,Not a Scientific Claim
+Yes. although I'm wondering if we should choose a different project.,Not a Scientific Claim
+"I'll explain the one I've been thinking about, and then you can decide.",Not a Scientific Claim
+This project uses a corpus of academic papers that we're doing a literature review and qualitative coding on.,Not a Scientific Claim
+"Our ""dataset"" would be these academic papers, plus different categorizations into themes, items, and so on.",Not a Scientific Claim
+We also had some other projects or datasets in mind.,Not a Scientific Claim
+Which type of dataset do you think is most helpful to focus on right now?,Not a Scientific Claim
+It would be helpful just to look at the main set of data.,Not a Scientific Claim
+Or at least something you're comfortable describing.,Not a Scientific Claim
+Sure.,Invalid
+"For the most recent project we considered using a dataset, but it ended up having some problems—or rather, it wasn't as useful as we had hoped.",Not a Scientific Claim
+"Before that, I was working on a project using NASA atmospheric data, trying to make it easier for people to use that data, but we aren't doing that anymore.",Not a Scientific Claim
+"In previous projects, I made a dataset and used it as a benchmark.",Not a Scientific Claim
+"I'm very familiar with that, but it's not as relevant to what we're doing now.",Not a Scientific Claim
+"For the newest project, we still might use some data from that original dataset, but it might be most helpful if I describe it in detail.",Not a Scientific Claim
+Yes let's do that.,Invalid
+Great.,Invalid
+"So, it's a dataset of academic papers.",Not a Scientific Claim
+"Each paper includes different hypotheses, as well as answers to those hypotheses that you could get from the paper's data.",Not a Scientific Claim
+"They also have analysis workflows showing how the researchers got from hypothesis to answer, plus references to the data they used.",Not a Scientific Claim
+Our goal was to see if a system could look at an academic paper and automatically extract the analysis workflow.,Grey Area Claim
+We wanted to use this curated set of papers as a benchmark.,Not a Scientific Claim
+"But as we talked to the creators of that dataset, we found out that in many cases, they had tried to replicate the analysis from each paper.",Not a Scientific Claim
+"When they couldn't replicate it exactly, they adapted the workflow, sometimes reaching different conclusions than the paper itself.",Not a Scientific Claim
+"So the ""workflow"" they provide often reflects their own replication attempts, not the original paper's approach.",Grey Area Claim
+It doesn't always match what the paper actually did.,Scientific Claim
+That's a challenge for us.,Not a Scientific Claim
+Right so you can't just run it through your system and match up exactly to what the benchmark says.,Not a Scientific Claim
+You found mismatches between the workflow in the benchmark and the paper itself?,Not a Scientific Claim
+Exactly.,Invalid
+"To analyze the situation, I printed out the papers and went line by line, building my own version of the workflow and comparing it to the benchmark's version.",Not a Scientific Claim
+I also compared the benchmark's reported results to the paper's actual results.,Not a Scientific Claim
+"There were mismatches in how the hypotheses were stated, and in the answers or conclusions they drew.",Scientific Claim
+It's more of a qualitative investigation of data quality rather than a standard statistical analysis.,Not a Scientific Claim
+Got it.,Invalid
+Is that why you moved on to something else?,Invalid
+We're still on the same broader project but we realized we can't rely on large-scale quantitative evaluations using that dataset.,Grey Area Claim
+We'll probably do user studies instead of trying to validate our system fully with that benchmark.,Not a Scientific Claim
+Makes sense.,Invalid
+Are there any unique challenges with that dataset that I should be aware of?,Invalid
+Yes.,Invalid
+"First, it wasn't immediately clear from their documentation that the workflows in their dataset were for the replication attempts, not for what was originally described in the papers.",Grey Area Claim
+"Also, we didn't know which papers had major details changed.",Not a Scientific Claim
+It was hard to map the dataset entries to the specific academic papers.,Grey Area Claim
+"Sometimes they found code in random places like repositories or Zenodo, and it was still tough to locate all the relevant pieces.",Grey Area Claim
+The level of detail in the workflows also varied a lot.,Scientific Claim
+Some were thorough; others were very simplistic.,Grey Area Claim
+"Their benchmark focuses on other tasks, so the workflow part isn't their main priority, which left it incomplete for our needs.",Not a Scientific Claim
+Got it.,Invalid
+So is there a specific file or component to focus on if I want to understand this area in detail?,Not a Scientific Claim
+In the benchmark everything is basically in one big JSON file but that's not as useful for us.,Not a Scientific Claim
+"The most valuable part for us is the corpus of academic papers they collected, because those papers at least have enough documentation to pass through the creators' filtering system.",Grey Area Claim
+"We may end up manually defining our own representation of each paper's workflow, but we'll use their paper list as a starting point.",Not a Scientific Claim
+"The code bases are also relevant, but they're pretty scattered in different places, so we'll see what we can track down.",Not a Scientific Claim
+Understood.,Invalid
+Can you walk me through a specific analysis you've done that's central to your research on this project?,Not a Scientific Claim
+Sure.,Invalid
+We went through multiple rounds of increasing detail to figure out if this dataset was right for us.,Not a Scientific Claim
+I started by looking at their workflow representation and comparing it to what's stated in the actual paper.,Not a Scientific Claim
+"This was all manual—lots of highlighting, re-reading, and note-taking.",Not a Scientific Claim
+Some of the included papers were confusingly written.,Not a Scientific Claim
+"Also, one of the more complex workflows in the benchmark was basically just a copy-paste from the paper.",Not a Scientific Claim
+No abstraction.,Not a Scientific Claim
+It was slow.,Not a Scientific Claim
+"I'd read the paper several times, compare it to the benchmark, and note which parts matched and which didn't.",Not a Scientific Claim
+"I also had to learn about the domain—like invasive plant species—because they used terms like ""phylogenetic tree model,"" which were new to me.",Not a Scientific Claim
+"Understanding it took time, and I couldn't just rely on the dataset's documentation because it didn't always match the paper.",Not a Scientific Claim
+So how does your work contribute to simplifying or clarifying this complexity for someone who's not an expert?,Not a Scientific Claim
+Our overall goal is to take a paper and produce an abstracted representation of its analysis workflow.,Not a Scientific Claim
+"We hoped the dataset's workflows would already do that for us, so we wouldn't have to do it manually.",Not a Scientific Claim
+But we discovered we still have to do it ourselves because the dataset's replication-based workflows don't match what the papers originally said.,Grey Area Claim
+We still plan to use the dataset as a starting point—mainly the set of collected papers.,Not a Scientific Claim
+Then we'll rework the replication-based workflows into something that accurately reflects the paper's stated methods.,Not a Scientific Claim
+That's what our project aims to do: bridging the gap between a paper's text and a structured representation of its analysis.,Grey Area Claim
+Understood.,Invalid
+You mentioned large language models (LLMs).,Not a Scientific Claim
+What resources or materials did you find most helpful when you started?,Not a Scientific Claim
+Honestly my own brain and a bunch of highlighters!,Not a Scientific Claim
+"More practically, the most helpful resource was direct access to the dataset's authors.",Not a Scientific Claim
+"Their GitHub README was decent, but clarifying questions directly with them saved a lot of time.",Not a Scientific Claim
+"I used Python and Jupyter notebooks to do quick filtering, make histograms of their category labels, and reformat data into something I could highlight in Google Docs.",Not a Scientific Claim
+Access to the original academic articles was also essential.,Not a Scientific Claim
+The main challenge was that the workflow files for the training set weren't publicly released; I had to email the authors for them.,Not a Scientific Claim
+"If I hadn't done that, I'd only have had the workflows for the test set—eight papers—which isn't enough for our purpose.",Not a Scientific Claim
+Got it.,Invalid
+What about visual aids or documentation that would help me come up to speed?,Not a Scientific Claim
+Visual aids that show the mismatch—like color-coded highlighting—were useful for demonstrating to my advisors how many discrepancies there were.,Grey Area Claim
+"The dataset has an accompanying paper, which is also helpful.",Not a Scientific Claim
+"But if you were joining this project, I'd just pick a few papers and show you how the workflows in the benchmark compare to what the paper actually says.",Not a Scientific Claim
+"Also be aware that if you want workflows for the training set, they're not publicly available.",Not a Scientific Claim
+You have to request them from the authors.,Not a Scientific Claim
+That's something I only discovered through direct contact.,Not a Scientific Claim
+Switching gears: what's the preferred mode of communication within the team for discussing project-related questions?,Not a Scientific Claim
+Most of it happens in meetings but also over Slack or email.,Not a Scientific Claim
+We keep a lot of info in Google Docs.,Not a Scientific Claim
+How can I best support your work while aligning with project objectives?,Not a Scientific Claim
+What should I get started on if I join?,Not a Scientific Claim
+I'd probably have you read a few of these papers look at the benchmark and see some processed examples I've compiled.,Not a Scientific Claim
+Then I'd share some papers that explain how we've been trying to do the abstracted workflow representation.,Not a Scientific Claim
+"I might also give you a paper and ask you to try to create the abstracted workflow by hand, so you really understand the problem.",Not a Scientific Claim
+That's the immediate learning phase.,Not a Scientific Claim
+Are there any unresolved issues where a fresh perspective could help?,Not a Scientific Claim
+Yes.,Not a Scientific Claim
+Figuring out how to do an evaluation beyond just a user study.,Not a Scientific Claim

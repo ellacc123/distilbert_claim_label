@@ -1,0 +1,308 @@
+input,Label
+"We observe that researchers often base their decisions on methodological or theoretical concerns, but subject to constraints arising from the data, expertise, or perceived interpretability.",Scientific Claim
+"We confirm that researchers may experiment with choices in search of desirable results, but also identify other reasons why researchers explore alternatives yet omit findings.",Scientific Claim
+Failing to constrain this freedom – experimenting with alternative analytic paths and selectively reporting findings – inflates the chance of false discovery.,Scientific Claim
+"To visualize provenance relationships, prior work predominantly uses network diagrams.",Not a Scientific Claim
+"One perspective is that flexibility is unavoidable, as well-intentioned experts may produce divergent outcomes.",Not a Scientific Claim
+"This variation is not explained by prior beliefs, expertise, or peer-reviewed quality of the analysis.",Scientific Claim
+"Others have adopted multiverse analysis in practice, cited it as an important area for future tool work, designed interactive media for multi-verse results, and proposed ways to quantify multiple analysis findings.",Not a Scientific Claim
+"Prior work on computational reproducibility concerns scientific workflows – process networks of analytic steps, that model a data analysis pipeline.",Not a Scientific Claim
+"Existing multiverse visualizations typically use animation, juxtaposition, or aggregation to convey analysis outcomes; some visualize the decision space in a matrix view.",Not a Scientific Claim
+"Fixating on a single analytic path may be less conclusive, with results dependent on arbitrary choices.",Scientific Claim
+"The effect remained 2 months later, generalized across a wide range of conspiracy theories, and occurred even among participants with deeply entrenched beliefs",Scientific Claim
+"Although the dialogues focused on a single conspiracy, they nonetheless diminished belief in unrelated conspiracies and shifted conspiracy-related behavioral intentions.",Scientific Claim
+Widespread belief in unsubstantiated or false conspiracy theories is both a major source of public concern and focus of scholarly research.,Scientific Claim
+"Conspiracy theories – in which events are understood as being caused by secret, malevolent plots involving powerful conspirators – are often quite implausible, yet a large fraction of the world has come to believe them, including as much as 50% of the US population by past estimates.",Scientific Claim
+"Such prevalence is particularly concerning, given that conspiracy belief is often used as a paradigmatic example of resistance to evidence: there is little evidence of interventions that successfully debunk conspiracies among people who already believe them.",Scientific Claim
+The apparent resilience of conspiracy theories in the face of clear counter-evidence poses a powerful challenge to scientific theories that emphasize the role of reasoning in belief formation and revision.,Scientific Claim
+"Instead, belief in conspiracies has primarily been explained through social-psychological processes thought to blunt rational decision-making and receptivity to evidence.",Not a Scientific Claim
+"Popular explanations propose that people adopt conspiracy theories to sate underlying psychic “needs” or motivations, such as the desire for control over one’s environment and experiences, certainty and predictability, security and stability, and uniqueness.",Not a Scientific Claim
+"Coupled with peoples’ motivations to maintain their identity and/or group memberships, with which conspiracies also interface, believers may use specific forms of biased information processing (motivated reasoning) where counterevidence is selectively ignored.",Scientific Claim
+"Entrenched conspiracy theorists are often quite knowledgeable about their conspiracy of interest, deploying prodigious (albeit often erroneous or misinterpreted) lists of evidence in support of the conspiracy that can leave skeptics outmatched in debates and arguments.",Scientific Claim
+"Some methods we endorse are not universally accepted, such as multiple comparison correction.",Not a Scientific Claim
+"By richly diagramming our participants’ analyses, we further observe recurring patterns in analysis processes, such as feedback loops and fixations.",Scientific Claim
+"In addition, by closely examining specific, published analyses, we identify conflicts between decision rationales and opportunism.",Scientific Claim
+"For more comprehensive assessments, researchers have proposed multiverse analysis: evaluating all “reasonable” analysis specifications and interpreting results collectively (where “reasonable” decisions are those with firm theoretical or statistical support).",Not a Scientific Claim
+"Judging by the size and color of decision nodes, P1 examined model specification options thoroughly (indicated by the size of the specify model formula node), but she appeared to place less emphasis on inference decisions (indicated by empty nodes in the inference section).",Not a Scientific Claim
+"Canned debunking attempts that argue broadly against a given conspiracy theory may, therefore, be ineffective because they fail to address the specific evidence held by the believer – and thus fail to be convincing.",Scientific Claim
+"In line with our theorizing around the unique capacities of LLMs for debunking conspiracies, we prompt the AI to use its store of knowledge to try to respond to the specific evidence raised by the participant and reduce the participant’s belief in the conspiracy theory (or, in a control condition, participants converse with AI about an unrelated topic).",Not a Scientific Claim
+"We also changed the wording for the conspiracy elicitation prompt such that, instead of directly asking participants which conspiracy theories they believed in, we provided a definition of what a conspiracy theory is and asked participants if they found any such theories compelling.",Not a Scientific Claim
+Dialogues with the AI produced a meaningful and enduring shift in beliefs among a meaningful proportion of committed conspiracy believers in our study.,Scientific Claim
+Our findings also have practical implications. ,Scientific Claim
+We conduct semi-structured interviews with authors of nine published studies in HCI and other scientific domains.,Not a Scientific Claim
+"We pore over participants’ manuscripts and analysis scripts to assess their decisions, and ask them to recall, brainstorm, and compare alternatives in every analytic step.",Not a Scientific Claim
+"We present a visualization design for representing analytical decisions, both to communicate our interview results and as a tool for mapping future studies. ",Not a Scientific Claim
+"Given the HCI community’s demonstrated interest in quantitative empirical research, we hope our findings will help inspire the design of both improved analysis tools and community standards.",Not a Scientific Claim
+We interviewed one researcher at a time for 60–90 minutes.,Not a Scientific Claim
+"Many workflow management systems also record provenance information, namely the history of execution steps and the environment, such as input data and parameter.",Not a Scientific Claim
+"To represent participants’ process and decisions, we created visualizations that we call Analytic Decision Graphs (ADGs).",Not a Scientific Claim
+We use a categorical color palette to represent type of decision rationale,Not a Scientific Claim
+The size of a node corresponds to the number of enumerated alternatives for the decision point,Not a Scientific Claim
+"As comparing unrelated studies is not a design goal of ADGs, care should be taken when interpreting apparent differences between graphs.",Not a Scientific Claim
+"To further enhance this tailored approach, we provided the AI with each participant’s written conspiracy rationale as the conversation’s opening message, along with the participant’s initial rating of their belief in the conspiracy.",Not a Scientific Claim
+We begin by investigating whether the treatment size varies across the specific focal conspiracy theories articulated by the participants.,Not a Scientific Claim
+"Although it was not possible for us to ensure that all the claims produced by the AI in our experiment were accurate, we hired a professional fact-checker to evaluate the veracity and potential bias of all 128 claims made by GPT-4-turbo across representative example conversations from each of the 11 major conspiracy clusters generated by participants in our experiments.",Not a Scientific Claim
+"Our study primarily relied on American online survey respondents who chose to participate in studies for material compensation, which raises questions about generalizability. ",Not a Scientific Claim
+"This design choice directed the AI’s attention to refuting specific claims, while simulating a more natural dialogue where the participant had already articulated their viewpoint.",Not a Scientific Claim
+"To further enhance this tailored approach, we provided the AI with each participant’s written conspiracy rationale as the conversation’s opening message, along with the participant’s initial rating of their belief in the conspiracy.",Not a Scientific Claim
+"This design allows us to test whether tailored persuasive communication is indeed able to reduce already-held conspiracy beliefs; how the effectiveness of such communication varies based on factors such as the intensity of the preexisting belief, the participant’s subscription to a more general conspiratorial mindset, the importance of the conspiracy to the participant’s life, and the content of the specific conspiracy theory articulated by the participants; and whether any such persuasion spills over to other related beliefs and behaviors.",Not a Scientific Claim
+All interviews were audio recorded and transcribed verbatim.,Not a Scientific Claim
+"To be clear, our research goal is to characterize the space of analytic processes and decisions, not to quantify the prevalence of any specific activity. ",Not a Scientific Claim
+We integrated raw codes within each theme to extract common concepts and patterns.,Not a Scientific Claim
+"Researchers face many, often seemingly arbitrary, choices in formulating hypotheses, designing protocols, collecting data, analyzing data, and reporting results. ",Not a Scientific Claim
+The Prereg Challenge format was a “structured” workflow with detailed instructions and an independent review to confirm completeness; the “Standard” format was “unstructured” with minimal direct guidance to give researchers flexibility for what to prespecify.,Not a Scientific Claim
+"We conclude that effective preregistration is challenging, and registration formats that provide effective guidance may improve the quality of research.",Scientific Claim
+"The scientific method is not a static process or set of techniques, but rather an evolving constellation of practices for formulating hypotheses, making observations, gathering data about testable predictions, and developing general theories.",Grey Area Claim
+Progress in science is marked both by creation of knowledge and improving methodology. ,Grey Area Claim
+One such improvement that is gaining popularity is preregistration with particularly rapid adoption in social and behavioral sciences like psychology.,Not a Scientific Claim
+"The key features of preregistration are (1) a priori specification of the research design and analysis plan; (2) posting the plan in discoverable repositories prior to observing the outcomes of the study; and (3) reporting all of the planned analyses. Preregistration is, therefore, comparable to prospective registration of clinical trials, although with an added focus on registering planned analyses. ",Not a Scientific Claim
+Specification of the design and the analysis plan before observing the outcomes prevents the outcomes from affecting design and analysis decisions. ,Scientific Claim
+"Without preregistration, this problem is prone to occur because of ordinary confirmation, hindsight, and outcome biases that affect human reasoning.",Scientific Claim
+Reporting all of the planned analyses enables accurate statistical inferences such as avoiding the inflation of false positives in null hypothesis significance testing based on selective reporting of multiple alternative analytic results.,Scientific Claim
+"Preregistration clarifies the distinction between planned and unplanned analyses, often corresponding to confirmatory, or hypothesis-testing research, and exploratory, or hypothesis-generating research.",Scientific Claim
+Note that “unplanned” and “exploratory” are not redundant.,Not a Scientific Claim
+"One can plan, and preregister, exploratory analyses to retain confidence in statistical inferences when there is little basis for articulating a priori hypotheses.",Scientific Claim
+"A specific, precise, and exhaustive description would include the protocol to administer the items, the scoring of the items, and the procedure to construct the composite score from the items.",Not a Scientific Claim
+Prizes were earned after authors published their completed studies in 1 of the participating journals.,Not a Scientific Claim
+"To be eligible for 1 of the 1,000 prizes of US$1,000, participants had to submit a fully completed “Prereg Challenge Registration” form for review by the COS. ",Not a Scientific Claim
+"Given the rapidly growing interest in preregistration across disciplines, it is important to evaluate the extent to which preregistrations restrict opportunistic use of researcher degrees of freedom. ",Grey Area Claim
+We did not examine the Open-ended Registrations because we wanted to only include registrations of which the researchers explicitly indicated that they had not collected or looked at the data before composing the preregistration.,Not a Scientific Claim
+"As this would be after our data collection period, we decided not to assess their preregistrations in our study.",Not a Scientific Claim
+"We evaluated to what extent preregistration formats restricted opportunistic use of 29 researcher degrees of freedom, collectively providing a Transparency Score for preregistrations.",Not a Scientific Claim
+"To emulate our intended best practice on the 29 researcher degrees of freedom, we wrote our own preregistration according to these standards and continued revision until it received full marks from 1 of the members of the coding team (EC) who was not involved in the creation of the scoring protocol.",Not a Scientific Claim
+"Instead, we considered a medium effect size to be an indication of a practically relevant difference between the 2 types of preregistrations.",Not a Scientific Claim
+We did not attempt to resolve discrepancies about the number of hypotheses as this was not part of our analyses but merely served as an indication of clarity and specificity of the preregistrations.,Not a Scientific Claim
+Some degrees of freedom carried more weight in the Transparency Score than others because of dependencies between them.,Grey Area Claim
+"Note that Transparency Scores based on these subsets are not preregistered, and all analyses that include these scores should be considered exploratory.",Not a Scientific Claim
+Our first research question was whether preregistrations that were written following a more detailed and specific form (Structured format) restricted use of researcher degrees of freedom more than preregistrations that were written following an open and flexible form (Unstructured format).,Not a Scientific Claim
+"In line with our confirmatory hypothesis, registrations from Structured formats (Mdn = 0.81) received higher median Transparency Scores than those from Unstructured formats (Mdn = 0.57), U = 2,053, p < 0.001.",Scientific Claim
+The difference was large (Cliff’s Delta = 0.49).,Not a Scientific Claim
+"The highest Transparency Score of a preregistration received in the Unstructured format was 1.05, whereas the highest score received in the Structured group was 1.47 (Range = 0 to 3).",Scientific Claim
+"In Table 2 and S1 and S2 Figs, we report for each type of preregistration the mean and distribution of scores for each degree of freedom and the Wilcoxon–Mann–Whitney U test and Cliff’s Delta effect size.",Not a Scientific Claim
+We observed higher scores in Structured than Unstructured formats for 22 of 29 degrees of freedom and significantly so for 14 of 29 (α = 0.05) and for 5 of 29 after applying the Holm correction (note that this correction was not preregistered).,Scientific Claim
+For just 1 degree of freedom (blinding) was the score significantly higher for Unstructured than Structured formats.,Scientific Claim
+"Scores of 3 were rare indicating that use of researcher degrees of freedom was not fully restricted (specific, precise, and exhaustive) in either format.",Scientific Claim
+"Degrees of freedom related to the hypothesis (and reporting). All preregistrations scored 0 on restricting hypothesizing after the results are known (HARKing; R6), restricting measuring additional constructs (D4), and restricting the selection of another primary outcome (A7).",Scientific Claim
+"Scores for these could only be 0 or 3, and none of the preregistrations explicitly specified that the confirmatory analysis section of the paper would not include another dependent variable than the ones specified in the preregistration.",Scientific Claim
+An obvious possible explanation is that researchers may assume that not mentioning other dependent variables means that no other dependent variables exist.,Grey Area Claim
+Degrees of freedom related to design. Registrations from Structured formats performed better than those from Unstructured formats on degrees of freedom that pertained to the operationalization of the variables in the study.,Scientific Claim
+"For example, Structured formats outperformed Unstructured formats on preventing the inclusion of multiple manipulated independent variables (D1; D = 0.22), multiple measures of the dependent variables (D3 and A5; D = 0.19), and additional independent variables that can be used for inclusion and exclusion (D5 and A12; D = 0.24).",Scientific Claim
+"Transparent reporting of these degrees of freedom can prevent common questionable research practices like failing to report all dependent variables, failing to report all of a study’s conditions, and informed exclusion of data (self-admittances rates of 63.4%, 27.7%, and 38.2%, respectively).",Scientific Claim
+"Likewise, clarity about the sampling plan (D7; D = 0.21) and data collection stopping rule (C4; D = 0.21) were better in the Structured format.",Scientific Claim
+"The Structured format leaves room for authors to state that they will recruit a sample of “at least” a certain size. Therefore, continued sampling after intermediate testing is not precluded, which might explain that the difference here was rather small.",Grey Area Claim
+"Most of the degrees of freedom related to design were relatively well restricted compared to others, although restricting the inclusion of multiple manipulated independent variable (D1) and restricting the inclusion of additional variables that could be used for covariates or moderators (D2 and A10) were not in either format.",Scientific Claim
+"The Structured format asks authors to list all variables in the study, but it does not ask for what purpose.",Not a Scientific Claim
+"Degrees of freedom related to data collection. Transparency about random assignment (C1) was rather poor in both formats, but better in Structured (D = 0.36), in which the format prompts authors to at least mention randomization.",Scientific Claim
+"Transparency of how data are treated during data collection was hardly addressed in either format, and no difference was observed (C3; D = 0.00).",Scientific Claim
+"Curiously, reporting about blinding participants or experimenters (C2) was better in the Unstructured than Structured format, and the difference was large (D = −0.59).",Scientific Claim
+"However, this may have occurred because of the coding strategy.",Grey Area Claim
+"In most Unstructured registrations (90.6%), this degree of freedom was coded as “Not Applicable,” whereas in most Structured registrations (92.3%), it was coded as 0.",Grey Area Claim
+The protocol first asked whether blinding of participants and/or experimenters was mentioned.,Not a Scientific Claim
+"In Unstructured registrations, the word “blinding” hardly ever appeared, resulting in most being coded as “not applicable.”",Not a Scientific Claim
+"If blinding was mentioned, the coder checked whether the preregistration described procedures to blind participants or experimenters.",Not a Scientific Claim
+This was often coded as 0 because authors responded that blinding was not applicable or that no blinding occurred.,Not a Scientific Claim
+"We decided to adhere to the preregistered protocol; however, we believe the resulting scores are unrepresentative of the Structured formats’ performance on this item.",Grey Area Claim
+"Transparency about testing and handling the assumptions of the statistical model (A3) and the software and packages to use for analysis (A14) was poor in both formats, and there was no significant difference (D = 0.10 and D = 0.06, respectively).",Scientific Claim
+"The Structured format was rather specific about aspects to be considered in the description of the statistical model, but it does not explicitly solicit information about violations of statistical assumptions, estimation method, or software to be used.",Not a Scientific Claim
+"Neither format did very well in eliciting complete responses for handling missing data (A1), but the Structured format did much better than the Unstructured format (D = 0.53).",Scientific Claim
+"Both formats did better in reporting how outliers would be managed (A4), with the Structured format doing better than the Unstructured format (D = 0.27).",Scientific Claim
+The Structured format also did better in eliciting clarity about operationalizing of independent variables (A9) compared with the Unstructured format (D = 0.36).,Scientific Claim
+"However, the mean scores on this degree of freedom were heavily influenced by the relatively high number of preregistrations that received a score of 3, particularly for the Structured format.",Scientific Claim
+"When the analysis concerned a t test (or a nonparametric equivalent), a common occurrence, we considered this degree of freedom excluded by definition and therefore assigned a score of 3.",Not a Scientific Claim
+"Also, the Structured format encouraged and elicited sharing of analysis scripts (leading to a score of at least 2), whereas this never occurred in the Unstructured format.",Scientific Claim
+"The choice of statistical model (A13) was relatively well reported in both formats, but better in the Structured format (D = 0.34).",Scientific Claim
+"Finally, the criteria for drawing inference (A15) was much better reported in the Structured than Unstructured format (D = 0.83).",Scientific Claim
+Degrees of freedom associated with a specific prompt in the Structured format tended to show the strongest performance advanced for that format.,Scientific Claim
+Straightforward adaptations of preregistration workflows may be helpful.,Scientific Claim
+Explicit commitments to exhaustiveness—what will not be done—may reduce this tendency.,Grey Area Claim
+"Studies on registrations of clinical trials show that outcome switching and HARKing are common [45–55], perhaps because of a failure to commit to not doing these behaviors.",Grey Area Claim
+"For example, if a researcher does not state anything about the handling of outliers, it could mean they will not remove any, or it could mean that they will make decisions about outliers after the fact.",Not a Scientific Claim
+"On the other hand, the modest overall performance is partly attributable to the strictness of our protocol.",Not a Scientific Claim
+"In many cases, the Structured format hardly performed better than the Unstructured format, and 8 degrees of freedom indicators scored close to 0 on average.",Not a Scientific Claim
+"The Structured format outperformed the Unstructured format, but neither performed impressively.",Scientific Claim
+The Structured format appeared to outperform the Unstructured format more when its prompts specifically articulated instructions to reduce degrees of freedom.,Scientific Claim
+All of these had scores near 0 suggesting that they were hardly addressed at all.,Scientific Claim
+"However, transparent reporting of the hypotheses (T1) was significantly better than all other degrees of freedom.",Scientific Claim
+This can help inform where preregistration is doing relatively well in transparent reporting and where there is most opportunity to improve,Not a Scientific Claim
+"Following our preregistration, we computed a score indicating to what extent a preregistration restricted opportunistic use of degrees of freedom.",Not a Scientific Claim
+This Transparency Score was computed as the unweighted arithmetic mean of the scores (0 to 3) of all 29 researcher degrees of freedom in our protocol.,Not a Scientific Claim
+"The degree of freedom labels were added manually, and some column names were adapted.",Not a Scientific Claim
+"The ""means per degree of freedom"" in Table 2 were calculated as the unweighted arithmetic mean of the scores (0 to 3) across each set of 53 and 52 preregistrations.",Not a Scientific Claim
+"Therefore, for exploratory purposes, we also calculated an aggregate score based on all items except those 3.",Not a Scientific Claim
+"Furthermore, we calculated Transparency Scores for each subcategory (e.g., design and data collection) separately.",Not a Scientific Claim
+Our first research question was whether preregistrations that were written following a more detailed and specific form (Structured format) restricted use of researcher degrees of freedom more than preregistrations that were written following an open and flexible form (Unstructured format).,Not a Scientific Claim
+"To test our primary hypothesis, we compared the median Transparency Score of the Structure format to the median Transparency Score of the Unstructured format with a 1-tailed 2-group Wilcoxon–Mann–Whitney U test.",Not a Scientific Claim
+"We chose this test because we expected the Transparency Score to be non-normally distributed, and this nonparametric test is robust against non-normality while still being relatively powerful.",Not a Scientific Claim
+We then conducted preregistered follow-up analyses to investigate on which degrees of freedom the 2 preregistration types differed.,Not a Scientific Claim
+We conducted 29 preregistered 2-tailed Wilcoxon–Mann–Whitney U tests to compare the median scores of the 2 formats per degree of freedom.,Not a Scientific Claim
+"In addition, we conducted registered follow-up analyses with 2-tailed paired-sample sign tests (without ties) to examine which degrees of freedom are the least and most restricted across both formats.",Not a Scientific Claim
+We employed Cliff’s Delta to assess effect size for comparing central tendency of ordinal variables.,Not a Scientific Claim
+"For exploratory analyses, we performed a nonparametric bootstrap procedure to compare the median Transparency Scores.",Not a Scientific Claim
+"Furthermore, the Transparency Scores on the subsets of items created for exploratory purposes are compared with the 2-tailed 2-group Wilcoxon–Mann–Whitney U test consistent with the other analyses.",Not a Scientific Claim
+We explored the association between the Transparency Scores of the different categories with Spearman rank order correlations.,Not a Scientific Claim
+Cliff’s Delta does not make any assumptions on the distributions of the 2 variables and is easily interpretable.,Grey Area Claim
+"Although we did not preregister a correction for multiple comparisons, we present the Holm corrected p-values, taking into account the large number of tests we conducted.",Not a Scientific Claim
+"Values under 0.147 are considered 'negligible,' values between 0.147 and 0.330 are considered 'small,' values between 0.330 and 0.474 are considered 'medium,' and values larger than 0.474 are considered 'large'.",Not a Scientific Claim
+"For our analyses, we used an R script (R version 3.2.4), which was an elaborated version of our preregistered analysis script.",Not a Scientific Claim
+We did not exclude any data except for 1 preregistration before coding it (see sample description).,Not a Scientific Claim
+"The data file was checked for missing values, and coders who left values missing then coded the variables they missed.",Not a Scientific Claim
+Values coded as 99 indicated that the specific variable was not applicable for that registration.,Not a Scientific Claim
+"Following our preregistration, we employed 2-way imputation (based on corresponding row and column means) to handle missing values.",Not a Scientific Claim
+"And, for our planned follow-up analyses, we employed pairwise deletion of missing values at the degree of freedom level.",Not a Scientific Claim
+The tables in this manuscript were created using an R Markdown script.,Not a Scientific Claim
+"This dataset includes 2,524 representative queries covering 146 databases, paired with accurately labeled ground truths.",Not a Scientific Claim
+"We advocate for a comprehensive automated evaluation methodology covering multiple dimensions, including validity, legality, and readability.",Not a Scientific Claim
+"By systematically scanning for potential issues with a number of heterogeneous checkers, VisEval provides reliable and trustworthy evaluation outcomes.",Scientific Claim
+We run VisEval on a series of state-of-the-art LLMs.,Not a Scientific Claim
+Our evaluation reveals prevalent challenges and delivers essential insights for future advancements.,Grey Area Claim
+Recent advancements in pre-trained large language models (LLMs) are opening new avenues for generating visualizations from natural language.,Grey Area Claim
+"Translating natural language to visualization (NL2VIS) has shown great promise for visual data analysis, but it remains a challenging task that requires multiple low-level implementations, such as natural language processing and visualization design.",Scientific Claim
+"However, the lack of a comprehensive and reliable benchmark hinders our understanding of LLMs’ capabilities in visualization generation.",Scientific Claim
+"Firstly, we introduce a high-quality and large-scale dataset.",Not a Scientific Claim
+LLMs-based methods have rapidly emerged as the predominant approach for addressing NL2VIS tasks.,Not a Scientific Claim
+Such shortcomings highlight the urgent need for systematic evaluation and benchmarking that points out potential issues in the generated results and reporting reliable evaluation outcomes.,Grey Area Claim
+We implement a data filtering procedure that combines the intelligence of state-of-the-art LLMs and experiences from visualization experts.,Not a Scientific Claim
+"NL2VIS, the task of translating natural language (NL) queries based on provided data tables into visualizations (VIS), has been a longstanding goal in the field of data visualization.",Not a Scientific Claim
+"Visualizations may appear correct at first glance, but they contain easily overlooked issues that can mislead users.",Scientific Claim
+"Mainstream NL2VIS datasets either focus on narrow domains and lack scalability, or contain incorrect labels and ambiguous queries.",Scientific Claim
+"Some evaluations solely look at the correctness of presented data, neglecting other dimensions such as readability.",Scientific Claim
+"To the best of our knowledge, no existing benchmarks contain both high-quality and large-scale datasets along with reliable automated evaluation methodologies that cover diverse metrics.",Not a Scientific Claim
+"To gain insights into the reliable evaluation of LLMs-generated visualizations, we conducted a preliminary study involving four human experts with more than five years of experience in the field of visualization.",Not a Scientific Claim
+Three hundred queries were randomly sampled from a widely used dataset nvBench [39].,Not a Scientific Claim
+"Following this, four experts independently reviewed the codes and chart images generated by each of the four models, taking the ground truth provided in nvBench as a reference.",Not a Scientific Claim
+"We made three observations throughout this process, regarding factors that are influencing the quality of generated visualizations and issues within the evaluation process.",Not a Scientific Claim
+"This is primarily manifested when a query describes an unreasonable visualization, leading to visualizations that are either meaningless or confusing.",Scientific Claim
+"Furthermore, some queries are ambiguous, making it difficult to ascertain if they meet the expected standards, and in some cases, the ground truth of certain queries is incorrectly labeled.",Scientific Claim
+"We categorized the inherent defects that hinder comprehension into three dimensions based on expert discussions and previous literature related to visualization linting [7, 44] and code generation benchmark [32, 72].",Not a Scientific Claim
+"In the era of large language models, a typical workflow of NL2VIS tasks involves assembling queries along with tabular data as input.",Grey Area Claim
+"Subsequently, LLMs are utilized to generate code based on established visualization libraries, resulting in intermediary output.",Not a Scientific Claim
+The generated code is executed in a sandboxed environment to obtain the final chart image.,Not a Scientific Claim
+These libraries are widely adopted within the community and are renowned for their versatility in producing a wide range of visualizations.,Grey Area Claim
+"While the authors and the employed experts identify numerous issues through human evaluation, this methodology proves unsustainable for future benchmarking due to its labor-intensive nature and lack of objectivity.",Scientific Claim
+The NL2VIS benchmark dataset typically includes pairs of natural language queries (NL) and corresponding visualizations (VIS).,Not a Scientific Claim
+"This meta-information, which details implicit and explicit query specifics, serves as constraints during evaluation to determine the most appropriate charts.",Not a Scientific Claim
+The model showed impressive proficiency in text recognition and comprehension of visualizations.,Scientific Claim
+The layout check entails assessing overflow and text overlap within visualizations.,Not a Scientific Claim
+"At times, words partially extended beyond the canvas, with segments of the letters fully displayed, posing a challenge to the model.",Grey Area Claim
+"Moreover, there were instances where the model could infer complete words from partial text, potentially influencing its ability to accurately judge whether words were fully displayed.",Grey Area Claim
+"Additionally, there are instances involving improper visual mapping.",Grey Area Claim
+Some instances fail to create the legal chart types.,Grey Area Claim
+The third category indicates that the generated visualization does not undergo appropriate visual transformation.,Scientific Claim
+Another reason is generating code that does not meet its intended purpose.,Scientific Claim
+This type of error refers to instances where the chart does not meet the query due to incorrect data transformations.,Not a Scientific Claim
+We then categorize these typical errors into five categories to reveal prevalent challenges.,Not a Scientific Claim
+"As summarized in Table 3, CoML4VIS has the highest quality score, while Chat2vis has the highest pass rate, which shows that different prompt strategies can have varying effects on the model’s performance.",Scientific Claim
+"Additionally, we noticed that previous approaches introduced distinct table formats, so we conducted an evaluation to understand how the pass rate of the same model varies across these different formats.",Not a Scientific Claim
+"""Since both Chat2vis and LIDA are limited to generating visualizations from a single table, our comparison focuses on the quality of 689 visualizations that require data from a single table.",Not a Scientific Claim
+LIDA describes the statistical information of each column in JSON format and samples N values randomly for each column.,Not a Scientific Claim
+"To ensure fairness, we maintained all other settings of CoML4VIS unchanged except for the table format, and we standardized the sample size N to 10 for all formatting options.",Not a Scientific Claim
+"However, different data formats have different impacts on the performance of different models.",Scientific Claim
+"We observed that when generating with GPT-3.5, using the table format of Chat2vis results in the highest pass rate.",Scientific Claim
+"In contrast, when generating with GPT-4, using the table format of Chat2vis yields the lowest pass rate.",Scientific Claim
+"These observations suggest that different LLMs exhibit preferences for specific table formats, which may stem from the use of distinct training data during pretraining.",Scientific Claim
+"Thank you, Maddie, for trying out this pilot study.",Not a Scientific Claim
+I'm going to ask some questions about the dataset for a project.,Not a Scientific Claim
+Could you provide an overview of the dataset you're working with and its key features?,Not a Scientific Claim
+Yes. although I'm wondering if we should choose a different project.,Not a Scientific Claim
+"I'll explain the one I've been thinking about, and then you can decide.",Not a Scientific Claim
+This project uses a corpus of academic papers that we're doing a literature review and qualitative coding on.,Not a Scientific Claim
+"Our ""dataset"" would be these academic papers, plus different categorizations into themes, items, and so on.",Not a Scientific Claim
+We also had some other projects or datasets in mind.,Not a Scientific Claim
+Which type of dataset do you think is most helpful to focus on right now?,Not a Scientific Claim
+It would be helpful just to look at the main set of data.,Not a Scientific Claim
+Or at least something you're comfortable describing.,Not a Scientific Claim
+Sure.,Invalid
+"For the most recent project we considered using a dataset, but it ended up having some problems—or rather, it wasn't as useful as we had hoped.",Not a Scientific Claim
+"Before that, I was working on a project using NASA atmospheric data, trying to make it easier for people to use that data, but we aren't doing that anymore.",Not a Scientific Claim
+"In previous projects, I made a dataset and used it as a benchmark.",Not a Scientific Claim
+"I'm very familiar with that, but it's not as relevant to what we're doing now.",Not a Scientific Claim
+"For the newest project, we still might use some data from that original dataset, but it might be most helpful if I describe it in detail.",Not a Scientific Claim
+Yes let's do that.,Invalid
+Great.,Invalid
+"So, it's a dataset of academic papers.",Not a Scientific Claim
+"Each paper includes different hypotheses, as well as answers to those hypotheses that you could get from the paper's data.",Not a Scientific Claim
+"They also have analysis workflows showing how the researchers got from hypothesis to answer, plus references to the data they used.",Not a Scientific Claim
+Our goal was to see if a system could look at an academic paper and automatically extract the analysis workflow.,Grey Area Claim
+We wanted to use this curated set of papers as a benchmark.,Not a Scientific Claim
+"But as we talked to the creators of that dataset, we found out that in many cases, they had tried to replicate the analysis from each paper.",Not a Scientific Claim
+"When they couldn't replicate it exactly, they adapted the workflow, sometimes reaching different conclusions than the paper itself.",Not a Scientific Claim
+"So the ""workflow"" they provide often reflects their own replication attempts, not the original paper's approach.",Grey Area Claim
+It doesn't always match what the paper actually did.,Scientific Claim
+That's a challenge for us.,Not a Scientific Claim
+Right so you can't just run it through your system and match up exactly to what the benchmark says.,Not a Scientific Claim
+You found mismatches between the workflow in the benchmark and the paper itself?,Not a Scientific Claim
+Exactly.,Invalid
+"To analyze the situation, I printed out the papers and went line by line, building my own version of the workflow and comparing it to the benchmark's version.",Not a Scientific Claim
+I also compared the benchmark's reported results to the paper's actual results.,Not a Scientific Claim
+"There were mismatches in how the hypotheses were stated, and in the answers or conclusions they drew.",Scientific Claim
+It's more of a qualitative investigation of data quality rather than a standard statistical analysis.,Not a Scientific Claim
+Got it.,Invalid
+Is that why you moved on to something else?,Invalid
+We're still on the same broader project but we realized we can't rely on large-scale quantitative evaluations using that dataset.,Grey Area Claim
+We'll probably do user studies instead of trying to validate our system fully with that benchmark.,Not a Scientific Claim
+Makes sense.,Invalid
+Are there any unique challenges with that dataset that I should be aware of?,Invalid
+Yes.,Invalid
+"First, it wasn't immediately clear from their documentation that the workflows in their dataset were for the replication attempts, not for what was originally described in the papers.",Grey Area Claim
+"Also, we didn't know which papers had major details changed.",Not a Scientific Claim
+It was hard to map the dataset entries to the specific academic papers.,Grey Area Claim
+"Sometimes they found code in random places like repositories or Zenodo, and it was still tough to locate all the relevant pieces.",Grey Area Claim
+The level of detail in the workflows also varied a lot.,Scientific Claim
+Some were thorough; others were very simplistic.,Grey Area Claim
+"Their benchmark focuses on other tasks, so the workflow part isn't their main priority, which left it incomplete for our needs.",Not a Scientific Claim
+Got it.,Invalid
+So is there a specific file or component to focus on if I want to understand this area in detail?,Not a Scientific Claim
+In the benchmark everything is basically in one big JSON file but that's not as useful for us.,Not a Scientific Claim
+"The most valuable part for us is the corpus of academic papers they collected, because those papers at least have enough documentation to pass through the creators' filtering system.",Grey Area Claim
+"We may end up manually defining our own representation of each paper's workflow, but we'll use their paper list as a starting point.",Not a Scientific Claim
+"The code bases are also relevant, but they're pretty scattered in different places, so we'll see what we can track down.",Not a Scientific Claim
+Understood.,Invalid
+Can you walk me through a specific analysis you've done that's central to your research on this project?,Not a Scientific Claim
+Sure.,Invalid
+We went through multiple rounds of increasing detail to figure out if this dataset was right for us.,Not a Scientific Claim
+I started by looking at their workflow representation and comparing it to what's stated in the actual paper.,Not a Scientific Claim
+"This was all manual—lots of highlighting, re-reading, and note-taking.",Not a Scientific Claim
+Some of the included papers were confusingly written.,Not a Scientific Claim
+"Also, one of the more complex workflows in the benchmark was basically just a copy-paste from the paper.",Not a Scientific Claim
+No abstraction.,Not a Scientific Claim
+It was slow.,Not a Scientific Claim
+"I'd read the paper several times, compare it to the benchmark, and note which parts matched and which didn't.",Not a Scientific Claim
+"I also had to learn about the domain—like invasive plant species—because they used terms like ""phylogenetic tree model,"" which were new to me.",Not a Scientific Claim
+"Understanding it took time, and I couldn't just rely on the dataset's documentation because it didn't always match the paper.",Not a Scientific Claim
+So how does your work contribute to simplifying or clarifying this complexity for someone who's not an expert?,Not a Scientific Claim
+Our overall goal is to take a paper and produce an abstracted representation of its analysis workflow.,Not a Scientific Claim
+"We hoped the dataset's workflows would already do that for us, so we wouldn't have to do it manually.",Not a Scientific Claim
+But we discovered we still have to do it ourselves because the dataset's replication-based workflows don't match what the papers originally said.,Grey Area Claim
+We still plan to use the dataset as a starting point—mainly the set of collected papers.,Not a Scientific Claim
+Then we'll rework the replication-based workflows into something that accurately reflects the paper's stated methods.,Not a Scientific Claim
+That's what our project aims to do: bridging the gap between a paper's text and a structured representation of its analysis.,Grey Area Claim
+Understood.,Invalid
+You mentioned large language models (LLMs).,Not a Scientific Claim
+What resources or materials did you find most helpful when you started?,Not a Scientific Claim
+Honestly my own brain and a bunch of highlighters!,Not a Scientific Claim
+"More practically, the most helpful resource was direct access to the dataset's authors.",Not a Scientific Claim
+"Their GitHub README was decent, but clarifying questions directly with them saved a lot of time.",Not a Scientific Claim
+"I used Python and Jupyter notebooks to do quick filtering, make histograms of their category labels, and reformat data into something I could highlight in Google Docs.",Not a Scientific Claim
+Access to the original academic articles was also essential.,Not a Scientific Claim
+The main challenge was that the workflow files for the training set weren't publicly released; I had to email the authors for them.,Not a Scientific Claim
+"If I hadn't done that, I'd only have had the workflows for the test set—eight papers—which isn't enough for our purpose.",Not a Scientific Claim
+Got it.,Invalid
+What about visual aids or documentation that would help me come up to speed?,Not a Scientific Claim
+Visual aids that show the mismatch—like color-coded highlighting—were useful for demonstrating to my advisors how many discrepancies there were.,Grey Area Claim
+"The dataset has an accompanying paper, which is also helpful.",Not a Scientific Claim
+"But if you were joining this project, I'd just pick a few papers and show you how the workflows in the benchmark compare to what the paper actually says.",Not a Scientific Claim
+"Also be aware that if you want workflows for the training set, they're not publicly available.",Not a Scientific Claim
+You have to request them from the authors.,Not a Scientific Claim
+That's something I only discovered through direct contact.,Not a Scientific Claim
+Switching gears: what's the preferred mode of communication within the team for discussing project-related questions?,Not a Scientific Claim
+Most of it happens in meetings but also over Slack or email.,Not a Scientific Claim
+We keep a lot of info in Google Docs.,Not a Scientific Claim
+How can I best support your work while aligning with project objectives?,Not a Scientific Claim
+What should I get started on if I join?,Not a Scientific Claim
+I'd probably have you read a few of these papers look at the benchmark and see some processed examples I've compiled.,Not a Scientific Claim
+Then I'd share some papers that explain how we've been trying to do the abstracted workflow representation.,Not a Scientific Claim
+"I might also give you a paper and ask you to try to create the abstracted workflow by hand, so you really understand the problem.",Not a Scientific Claim
+That's the immediate learning phase.,Not a Scientific Claim
+Are there any unresolved issues where a fresh perspective could help?,Not a Scientific Claim
+Yes.,Not a Scientific Claim
+Figuring out how to do an evaluation beyond just a user study.,Not a Scientific Claim
