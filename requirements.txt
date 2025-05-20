@@ -1,0 +1,6 @@
+torch
+transformers[torch]
+scikit-learn
+matplotlib 
+torchvision 
+torchaudio
